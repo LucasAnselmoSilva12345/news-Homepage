@@ -4,6 +4,7 @@ import { SidebarHero } from '../../components/SidebarHero';
 import { MainHero, SectionHero } from './styles';
 
 import WebThree from '../../assets/images/image-web-3-desktop.jpg';
+import { HorizontalBar } from '../../components/HorizontalBar';
 
 export function Home() {
   return (
@@ -30,6 +31,7 @@ export function Home() {
         </SectionHero>
         <SidebarHero />
       </MainHero>
+      <HorizontalBar />
     </>
   );
 }
