@@ -10,7 +10,7 @@ export const MainHero = styled.main`
   grid-template-columns: 1fr;
 
   @media (min-width: 992px) {
-    grid-template-columns: 1fr 370px;
+    grid-template-columns: 3fr 1fr;
   }
 `;
 
@@ -48,37 +48,6 @@ export const SectionHero = styled.section`
         border: 0;
         background-color: var(--softRed);
         color: var(--offWhite);
-      }
-    }
-  }
-`;
-
-export const SidebarHero = styled.div`
-  padding: 12px;
-  background-color: var(--veryDarkBlue);
-
-  h2 {
-    color: var(--softOrange);
-    font-size: 2rem;
-    text-transform: capitalize;
-  }
-
-  div {
-    padding: 8px 0;
-    border-bottom: 2px solid #f1f1f1;
-
-    h3 {
-      margin: 20px 0;
-      color: var(--offWhite);
-    }
-
-    p {
-      margin-bottom: 20px;
-      color: var(--grayishBlue);
-
-      &:last-child {
-        background-color: tomato;
-        margin-bottom: 0;
       }
     }
   }
