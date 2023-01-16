@@ -1,16 +1,14 @@
+import WLogo from '../../assets/images/logo.svg';
+import { Mobile } from '../Mobile';
+import { NavBar } from './styles';
+
 export function Header() {
   return (
-    <header>
-      <div className="image">
-        <img src="" alt="" />
+    <NavBar>
+      <div className="imgLogo">
+        <img src={WLogo} alt="Logo marca em formato da Letra W" />
       </div>
-      <nav>
-        <ul>
-          <li>
-            <a href=""></a>
-          </li>
-        </ul>
-      </nav>
-    </header>
+      <Mobile />
+    </NavBar>
   );
 }
