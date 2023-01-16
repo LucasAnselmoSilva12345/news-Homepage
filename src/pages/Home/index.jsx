@@ -1,10 +1,8 @@
 import { Header } from '../../components/Header';
-import { SidebarHero } from '../../components/SidebarHero';
-
-import { MainHero, SectionHero } from './styles';
-
-import WebThree from '../../assets/images/image-web-3-desktop.jpg';
 import { HorizontalBar } from '../../components/HorizontalBar';
+import { SidebarHero } from '../../components/SidebarHero';
+import WebThree from '../../assets/images/image-web-3-desktop.jpg';
+import { MainHero, SectionHero } from './styles';
 
 export function Home() {
   return (
