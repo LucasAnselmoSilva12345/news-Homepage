@@ -6,16 +6,16 @@ export const ContainerBlock = styled.div`
   align-items: flex-start;
   justify-content: space-between;
 
-  @media (min-width: 1024px) {
+  @media (min-width: 64rem) {
     flex-direction: row;
   }
 `;
 
 export const BlockItem = styled.div`
-  padding: 8px;
+  padding: 0.5rem;
   display: flex;
   align-items: flex-start;
-  gap: 8px;
+  gap: 0.5rem;
 `;
 
 export const BlockContent = styled.div`
@@ -23,16 +23,16 @@ export const BlockContent = styled.div`
   flex-direction: column;
 
   strong {
+    margin-bottom: 2rem;
     font-size: 3rem;
     font-weight: 700;
-    margin-bottom: 2rem;
     color: var(--veryDarkBlue);
   }
 
   h4 {
-    font-size: 20px;
-    font-size: 400;
     margin-bottom: 1rem;
+    font-size: 1.25rem;
+    font-size: 400;
   }
 
   p {

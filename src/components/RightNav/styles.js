@@ -15,16 +15,16 @@ export const ListElementsNav = styled.ul`
   }
 
   @media (max-width: 768px) {
-    flex-flow: column nowrap;
-    background-color: var(--offWhite);
     position: fixed;
-    transform: ${({ openMenu }) =>
-      openMenu ? 'translateX(0)' : 'translateX(100%)'};
+    width: 300px;
+    height: 100vh;
+    padding-top: 20rem;
     top: 0;
     right: 0;
-    height: 100vh;
-    width: 300px;
-    padding-top: 20rem;
+    flex-flow: column nowrap;
+    transform: ${({ openMenu }) =>
+      openMenu ? 'translateX(0)' : 'translateX(100%)'};
     transition: transform 0.3s ease-in-out;
+    background-color: var(--offWhite);
   }
 `;

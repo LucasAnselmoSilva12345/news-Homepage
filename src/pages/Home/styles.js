@@ -34,10 +34,11 @@ export const SectionHero = styled.section`
 
     div {
       width: 80%;
+
       p {
+        margin-bottom: 1rem;
         font-size: 20px;
         font-weight: 400;
-        margin-bottom: 1rem;
       }
 
       button {
@@ -48,6 +49,12 @@ export const SectionHero = styled.section`
         border: 0;
         background-color: var(--softRed);
         color: var(--offWhite);
+        cursor: pointer;
+        transition: all 0.5s ease-in-out;
+
+        &:hover {
+          filter: opacity(0.8);
+        }
       }
     }
   }

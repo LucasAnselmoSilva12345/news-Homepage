@@ -4,8 +4,8 @@ export const StyledMenuMobile = styled.div`
   width: 2rem;
   height: 2rem;
   position: fixed;
-  top: 15px;
-  right: 20px;
+  top: 0.9375rem;
+  right: 1.25rem;
   z-index: 20;
   display: none;
 
@@ -14,7 +14,7 @@ export const StyledMenuMobile = styled.div`
   }
 
   .iconMenuMobile {
-    cursor: pointer;
     color: var(--veryDarkBlue);
+    cursor: pointer;
   }
 `;
