@@ -27,7 +27,7 @@ In this project, the following technologies were used:
 
 ```sh
 
-$ git clone https://github.com/LucasAnselmoSilva12345/linkImportante
+$ git clone https://github.com/LucasAnselmoSilva12345/news-Homepage
 
 ```
 
