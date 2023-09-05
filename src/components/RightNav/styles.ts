@@ -1,9 +1,5 @@
 import styled from 'styled-components';
 
-interface StyledMenuMobileProps {
-  openMenu: boolean;
-}
-
 export const ListElementsNav = styled.ul<StyledMenuMobileProps>`
   display: flex;
   align-items: center;

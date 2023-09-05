@@ -1,0 +1,3 @@
+interface StyledMenuMobileProps {
+  openMenu: boolean;
+}
