@@ -7,9 +7,7 @@ import { MainHero, SectionHero } from './styles';
 export function Home() {
   return (
     <>
-      <header>
-        <Header />
-      </header>
+      <Header />
       <MainHero>
         <SectionHero>
           <div className="section-image">

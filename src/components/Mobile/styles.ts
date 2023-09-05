@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const StyledMenuMobile = styled.div`
+export const StyledMenuMobile = styled.div<StyledMenuMobileProps>`
   width: 2rem;
   height: 2rem;
   position: fixed;

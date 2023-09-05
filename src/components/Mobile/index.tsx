@@ -4,7 +4,7 @@ import { List, X } from 'phosphor-react';
 import { StyledMenuMobile } from './styles';
 
 export function Mobile() {
-  const [openMenu, setOpenMenu] = useState(false);
+  const [openMenu, setOpenMenu] = useState<boolean>(false);
 
   function handleClickOpenMenu() {
     return setOpenMenu(!openMenu);
