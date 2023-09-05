@@ -35,7 +35,7 @@ $ git clone https://github.com/LucasAnselmoSilva12345/news-Homepage
 
 ```sh
 
-$ cd pasta
+$ cd news-Homepage
 
 ```
 
