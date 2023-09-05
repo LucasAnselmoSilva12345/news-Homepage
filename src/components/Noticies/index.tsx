@@ -1,6 +1,11 @@
 import { Card } from './styles';
 
-export function Noticies({ title, paragraph }) {
+interface NoticiesProps {
+  title: string;
+  paragraph: string;
+}
+
+export function Noticies({ title, paragraph }: NoticiesProps) {
   return (
     <Card>
       <h3>{title}</h3>

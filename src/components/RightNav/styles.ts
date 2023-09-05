@@ -1,6 +1,10 @@
 import styled from 'styled-components';
 
-export const ListElementsNav = styled.ul`
+interface StyledMenuMobileProps {
+  openMenu: boolean;
+}
+
+export const ListElementsNav = styled.ul<StyledMenuMobileProps>`
   display: flex;
   align-items: center;
 

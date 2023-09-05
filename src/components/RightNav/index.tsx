@@ -1,6 +1,10 @@
 import { ListElementsNav } from './styles';
 
-export function RightNav({ openMenu }) {
+interface RightNavProps {
+  openMenu: boolean;
+}
+
+export function RightNav({ openMenu }: RightNavProps) {
   return (
     <ListElementsNav openMenu={openMenu}>
       <li>Home</li>
